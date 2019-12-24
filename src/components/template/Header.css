@@ -1,0 +1,6 @@
+header.header{
+    background-color: rgb(235, 23, 23);
+    padding: 0px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
