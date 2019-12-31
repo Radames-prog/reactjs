@@ -1,5 +1,5 @@
 :root{
-    --bg-dark: #1a2f3a;
+    --bg-dark: #12101a;
     --logo-height:100px;
     --header-height:100px;
     --menu-top-height:60px;
@@ -27,9 +27,9 @@
             1fr
             var(--footer-height);
     grid-template-areas: 
-     "logo header"
-     "menu content"
-     "menu footer";
+    "logo header"
+    "menu content"
+    "menu footer";
     height: 100vh;
     background-color: #f5f5f5;
 }

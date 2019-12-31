@@ -1,16 +1,57 @@
-.container{
-    flex: 1;
-    width: 200;
-    height: 200;
+input[type=time], select {
+  width: 100%;
+  padding: 4px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}       
 
-}
+
 h1{
  color: blue;
  align-items: center;
 }
-form{
-    background-color: burlywood;
-}
 h2{
- color: blueviolet;   
+ color: rgb(77, 77, 77);
+ font-size: 15px;
+ box-shadow: var(--shadow);
 }
+
+
+form.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10;
+}
+input[type=button] {
+  width: 100px;
+  background-color: rgb(62, 173, 65);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  background-color: #6ed373;
+}
+input[type=namber], select {
+  width: 40%;
+  padding: 4px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}       

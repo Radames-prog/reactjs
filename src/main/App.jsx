@@ -8,7 +8,7 @@ import Routes from './Routes'
 import Logo from '../components/template/Logo'
 import Nav from '../components/template/Nav'
 import Footer from '../components/template/Footer'
-import HorasExtras from '../components/EntradasSaidas'
+
 
 
 export default props =>

@@ -7,9 +7,8 @@ import CalcHextra from '../components/EntradasSaidas'
 
 export default props =>
     <Switch>
-        <Route exact path='/' componoent={Home} />
-        <Route path='/users' componoent={UserCrud} />
-        <Route path='/calhextra' componoent={CalcHextra} />
+        <Route exact path='/' component={Home} />
+        <Route path='/users' component={UserCrud} />
+        <Route path='/hextra' component={CalcHextra} />
         <Redirect from='#' to='/'/>
-
     </Switch>
